@@ -1420,3 +1420,85 @@ textarea:focus ~ .highlight {
 /* The End */
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+/***indicadores**/
+
+  body {
+
+  text-align: center;
+  font-size: 23px;
+}
+
+
+.indicadores {
+  position: absolute;
+  width: 530px;
+  left: 46%;
+  margin-left: -200px;
+  top:35%;
+  margin-top: -40px;
+  border-radius: 80px;
+
+}
+.indicadores span {
+  position: relative;
+  top: 93px;
+  display: inline-block;
+  text-transform: uppercase;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none;
+}
+.indicadores nav {
+  font-size: 94px;
+}
+.indicadores a {
+
+  line-height: 153px;
+  width: 139px;
+  text-align: center;
+  display: inline-block;
+  background-color: #ffffff;
+  color: #ffffff;
+  overflow: hidden;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  margin: 0 -20px;
+  box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.indicadores a:nth-child(1) {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  margin-left: 0;
+}
+.indicadores a:nth-child(1):hover {
+  background-color: #61c5ec;
+}
+.indicadores a:nth-child(2):hover {
+  background-color: #3B5998;
+}
+.indicadores a:nth-child(3):hover {
+  background-color: #ea4335;
+}
+.indicadores a:nth-child(3) {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-right: 0;
+}
+.indicadores a:nth-child(3):hover {
+  background-color: #000000;
+}
+.indicadores:hover span, .indicadores.hover span {
+  opacity: 0;
+}
+.indicadores:hover a, .indicadores.hover a {
+  border-radius: 50%;
+  margin: 0 10px;
+  color: black;
+  font-size: 28px;
+}
+.indicadores:hover a:hover, .indicadores.hover a:hover {
+  color: #fff;
+}
