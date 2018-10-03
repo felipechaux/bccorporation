@@ -1469,8 +1469,8 @@ textarea:focus ~ .highlight {
   box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.1);
 }
 .indicadores a:nth-child(1) {
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius:200px;
   margin-left: 0;
 }
 .indicadores a:nth-child(1):hover {
@@ -1483,8 +1483,8 @@ textarea:focus ~ .highlight {
   background-color: #ea4335;
 }
 .indicadores a:nth-child(3) {
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
   margin-right: 0;
 }
 .indicadores a:nth-child(3):hover {
@@ -1502,3 +1502,4 @@ textarea:focus ~ .highlight {
 .indicadores:hover a:hover, .indicadores.hover a:hover {
   color: #fff;
 }
+/***fin indicadores**/
